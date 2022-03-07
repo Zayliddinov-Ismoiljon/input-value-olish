@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+    <h1 class="h1 text-center text-primary my-4">Massiv elementlarini inputdan olish</h1>
+    <div class="col-8 m-auto">
+        <form method="post" autocomplete="off" class="form d-flex">
+            <label for="massiv" class="form-label me-3">Massiv:</label>
+            <input type="text" class="form-control w-75 me-3" placeholder="neter your array element" id="massiv"  name="array" required>
+            <button type="submit" class="btn btn-primary text-light">Submit</button>
+        </form>
+        <div class="d-flex my-5">
+        <h2 class="h2 m-0 p-0 me-3">Result:</h2>
+        <span class="result  text-primary fs-3"></span>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
